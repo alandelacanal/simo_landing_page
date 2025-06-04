@@ -40,3 +40,12 @@ cd simo-landing
 
 # Instala dependencias
 pnpm install         # o npm install / yarn
+
+### 3. Ejecución en desarrollo
+
+```bash
+pnpm run dev # o npm run dev / yarn dev
+```
+
+Abre <http://localhost:5173> para ver la aplicación.
+
