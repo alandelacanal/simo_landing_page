@@ -64,3 +64,37 @@ section {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
   text-align: center;
 }
+
+.pricing-cards {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.plan {
+  background: #f9f9f9;
+  color: #333;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.plan h3 {
+  margin-top: 0;
+}
+
+.plan .price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.plan-premium {
+  border: 2px solid #646cff;
+}
+
+@media (min-width: 600px) {
+  .pricing-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
